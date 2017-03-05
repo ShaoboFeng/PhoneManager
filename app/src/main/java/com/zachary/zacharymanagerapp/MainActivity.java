@@ -29,6 +29,7 @@ import android.widget.Toast;
 import com.zachary.zacharymanagerapp.provider.AppConstant;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -113,6 +114,7 @@ public class MainActivity extends AppCompatActivity
             }while(cursor.moveToNext());
         }
         cursor.close();
+        Collections.sort(mList);
         adapter.swapData(mList);
     }
 

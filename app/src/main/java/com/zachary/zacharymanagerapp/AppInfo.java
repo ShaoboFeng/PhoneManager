@@ -10,7 +10,7 @@ import android.graphics.drawable.Drawable;
  * Created by shaobo on 2016/10/30.
  */
 
-public class AppInfo {
+public class AppInfo  implements Comparable{
     protected long mUid = 0;
     protected String mPkgName = null;
     protected Drawable mAppIcon = null;
@@ -91,5 +91,18 @@ public class AppInfo {
 
     public long getId(){
         return mUid;
+    }
+
+    @Override
+    public int compareTo(Object o)
+    {
+        AppInfo app = (AppInfo)o;
+        if(app.getStatus() == this.getStatus()){
+            return 0;
+        }
+        if(app.getStatus()==false){
+            return -1;
+        }
+        return 1;
     }
 }
