@@ -1,9 +1,5 @@
 package com.zachary.zacharymanagerapp;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
 import android.content.Context;
 import android.content.res.Resources;
 import android.view.LayoutInflater;
@@ -11,16 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-/**
- * Abstract some common action of adapter. You just need to override {@link newView} and {@link bindView}.
- * Call {@link swapData} to change the data of this adapter
- * @param <T>
- */
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 public abstract class CommonAdapter<T> extends BaseAdapter {
-    /**
-     * List to hold the adapter data. This list cannot changed from outside ,you just call {@link swapData}
-     * to change the data of list
-     */
     protected final List<T> mList = new ArrayList<T>();
 
     /**

@@ -1,9 +1,10 @@
 package com.zachary.zacharymanagerapp.utils;
 
+import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import android.util.Log;
 import java.io.InputStreamReader;
 
 /**

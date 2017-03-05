@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import com.zachary.zacharymanagerapp.AppInfo;
 import com.zachary.zacharymanagerapp.provider.AppConstant;
-import com.zachary.zacharymanagerapp.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

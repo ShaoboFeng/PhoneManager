@@ -6,8 +6,9 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.util.Log;
 import android.os.Message;
+import android.util.Log;
+
 import com.zachary.zacharymanagerapp.provider.AppConstant;
 
 /**

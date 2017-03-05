@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_887a42f5ffc42e08315e608a383e94173f8cdc9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_b1f98c39626d2e79f1826afff481e272141965d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_352805add14512dcc69bbd5266a5e6c45882ac0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_d41ac6d5b5ef040237c4cf575ce784875438e1d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_76c352fc63427796a86f5dbde2d03c37a03b7414.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e82c66857db32f7f5cd0f6d6bd6fe6ac09ddb000.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_75ddd40eba47d5af30812eb293119fb6d8469ba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Users\shaobo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_abdc4241eebf45b1f98966138469fabb3656efcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_41506a209504682cc4bf5274245737dbddd112bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_54a3eea0f3a53897bd4df798cf2b405b70f516b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_16fe97c852527971fbafbf9116c988f11d62f830.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_71dfff34155446c64a4fae377dfc29abb0041191.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e079be66a55bea9ceed1555c76629f027d075afc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_1174ee90baaae508f1ae07a6f06445f1a317a355.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3b9a72cd1ef289c9ecfb1ab9cdf91c2a3709e105.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_d7653b866a98165a79addaca66eae3624f36bacb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="Z:\github\PhoneManager\PhoneManager\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_44b940a4b2afe5c97b8fa026901b4ff49ece11af.jar" />
+    </item>
+
+</items>

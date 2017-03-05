@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -23,11 +25,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
-import android.net.wifi.WifiInfo;
-import android.net.wifi.WifiManager;
 
 import com.zachary.zacharymanagerapp.provider.AppConstant;
-import com.zachary.zacharymanagerapp.services.CheckMemService;
 
 import java.util.ArrayList;
 import java.util.List;
