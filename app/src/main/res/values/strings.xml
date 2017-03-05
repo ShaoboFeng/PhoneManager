@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZacharyManagerApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">当前内存</string>
+    <string name="str_android">android </string>
+</resources>
