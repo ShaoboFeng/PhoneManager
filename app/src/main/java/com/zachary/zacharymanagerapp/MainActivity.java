@@ -11,9 +11,7 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -22,7 +20,6 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -75,7 +72,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +81,7 @@ public class MainActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
-
+        */
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -93,10 +90,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        applist = (ListView)findViewById(R.id.applist);
-        getData();
-        applist.setAdapter(adapter);
 
         //startService(new Intent(this, CheckMemService.class));
     }
@@ -158,7 +151,6 @@ public class MainActivity extends AppCompatActivity
     private WifiInfo getWifiInfo(){
         WifiManager wifiManager=(WifiManager) getSystemService(WIFI_SERVICE);
         return wifiManager.getConnectionInfo();
-
     }
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -174,8 +166,10 @@ public class MainActivity extends AppCompatActivity
             intent.setAction("zachary.getWifiInfo");
             intent.putExtra("ssid",wifiInfo.getSSID());
             sendBroadcast(intent);
-        } else if (id == R.id.nav_gallery) {
-
+        } else if (id == R.id.nav_protect) {
+            applist = (ListView)findViewById(R.id.applist);
+            getData();
+            applist.setAdapter(adapter);
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
